@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/gameLayout"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/black">
+
+    <!-- High Score -->
+
+    <!-- Score Display -->
+
+    <!-- Tap Button -->
+    <TextView
+        android:id="@+id/tapthejoker"
+        android:layout_width="226dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="190dp"
+        android:text="POP THE  🤡"
+        android:textColor="#F8F5F5"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/highScoreText"
+        android:layout_width="226dp"
+        android:layout_height="78dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="140dp"
+        android:text="High Score: 0"
+        android:textColor="#FF0000"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tapCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginBottom="100dp"
+        android:text="Score: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/tapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <!-- Countdown Text -->
+
+
+    <!-- Timer -->
+    <TextView
+        android:id="@+id/timerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time: 15s"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/countdownText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="Starting in 3..."
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+</FrameLayout>
